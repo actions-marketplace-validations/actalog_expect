@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup",
     "build:watch": "npm run build -- --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
